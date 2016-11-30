@@ -6,11 +6,12 @@ package Prueba;
  */
 public class Prueba {
 
+    private Prueba(){
+    
+    }
     
     public static void main(String[] args) {
-        
-        
-        System.err.println("Holaaa Mundo");     
+        System.out.println("Holaaa Mundo");     
     }
     
 }
