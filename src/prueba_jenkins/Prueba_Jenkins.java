@@ -11,16 +11,18 @@ import java.util.Scanner;
  */
 public class Prueba_Jenkins {
 
-    /**
-     * @param args the command line arguments
-     */
+   private Prueba_Jenkins(){
+   
+   }
+    
+    
     public static void main(String[] args) {
         // TODO code application logic here
         
        Scanner sc = new Scanner(System.in);
-        int n,celular;
+        int edad=0;
         System.out.println("Ingrese su edad:");
-        n=sc.nextInt();
+        edad=sc.nextInt();
        
     }
     
