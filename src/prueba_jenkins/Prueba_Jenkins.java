@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package prueba_jenkins;
-
+import java.util.Scanner;
 /**
  *
  * @author Marco
@@ -17,7 +17,13 @@ public class Prueba_Jenkins {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        System.out.println("HOLAAA MUNDO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+       Scanner sc = new Scanner(System.in);
+       String nombre; 
+       int n;
+       System.out.println("Ingrese su nombre:");
+        nombre=sc.next();
+        System.out.println("Ingrese su edad:");
+        n=sc.nextInt();
     }
     
 }
