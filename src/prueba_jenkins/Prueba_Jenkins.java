@@ -18,14 +18,10 @@ public class Prueba_Jenkins {
         // TODO code application logic here
         
        Scanner sc = new Scanner(System.in);
-       String nombre; 
-       int n,celular;
-       System.out.println("Ingrese su nombre:");
-        nombre=sc.next();
+        int n,celular;
         System.out.println("Ingrese su edad:");
         n=sc.nextInt();
-        System.out.println("Ingrese celular");    
-        celular=sc.nextInt();
+       
     }
     
 }
