@@ -19,11 +19,7 @@ public class Prueba_Jenkins {
     public static void main(String[] args) {
         // TODO code application logic here
         
-       Scanner sc = new Scanner(System.in);
-        int edad=0;
-        System.out.println("Ingrese su edad:");
-        edad=sc.nextInt();
-       
+        System.out.println("Holaaa Mundo");     
     }
     
 }
