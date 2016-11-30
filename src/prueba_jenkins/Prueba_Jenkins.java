@@ -23,7 +23,6 @@ public class Prueba_Jenkins {
        System.out.println("Ingrese su nombre:");
         nombre=sc.next();
         System.out.println("Ingrese su edad:");
-        n=sc.nextInt();
-    }
+        n=sc.nextInt();    }
     
 }
