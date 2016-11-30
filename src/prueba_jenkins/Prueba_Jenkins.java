@@ -19,10 +19,13 @@ public class Prueba_Jenkins {
         
        Scanner sc = new Scanner(System.in);
        String nombre; 
-       int n;
+       int n,celular;
        System.out.println("Ingrese su nombre:");
         nombre=sc.next();
         System.out.println("Ingrese su edad:");
-        n=sc.nextInt();    }
+        n=sc.nextInt();
+        System.out.println("Ingrese celular");    
+        celular=sc.nextInt();
+    }
     
 }
